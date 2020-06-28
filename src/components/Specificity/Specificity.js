@@ -1,17 +1,21 @@
-import React from 'react'
-import './Specificity.css'
+import React from "react";
+import "./Specificity.css";
 
-const Boxsizing = () => {
-    return (
-        <div className="demo">
-            <br/><br/>
-            <div className="item hello">Hello</div>
-            <div className="item hello">Hello</div>
-            <div className="item hello">Hello</div>
-            <div className="item hello">Hello</div>
-        </div>
-    )
-}
+const Specificity = () => {
+  return (
+    <div className="demo">
+      <br />
+      <br />
+      <div className="first-row">
+        <div className="item hello">Hello</div>
+        <div className="item world">Hello</div>
+      </div>
+      <div className="second-row">
+        <div className="item hello">Hello</div>
+        <div className="item world">Hello</div>
+      </div>
+    </div>
+  );
+};
 
-
-export default Boxsizing;
+export default Specificity;
