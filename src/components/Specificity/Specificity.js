@@ -8,11 +8,10 @@ const Specificity = () => {
       <br />
       <div className="first-row">
         <div id="hello" className="item hello">Hello</div>
-        <div className="item world">Hello</div>
-      </div>
-      <div className="second-row">
-        <div className="item hello">Hello</div>
-        <div className="item world">Hello</div>
+        <div world="true" className="item world">World</div>
+        <div world="false" className="item again">Again</div>
+        <input type="text" value="hello" />
+        <input type="password" value="hello" />
       </div>
     </div>
   );

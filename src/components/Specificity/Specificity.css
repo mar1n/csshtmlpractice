@@ -11,3 +11,11 @@
     background-color: blue;
 }
 
+
+[world="true"] {
+    background-color: cyan;
+}
+
+[type="password"] {
+    background-color: chartreuse;
+}
