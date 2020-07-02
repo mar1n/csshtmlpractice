@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Specificity from './components/Specificity/Specificity'
 import Menu from './components/Menu/Menu';
 import * as serviceWorker from './serviceWorker';
 
