@@ -1,0 +1,27 @@
+.Menu {
+    border: 1px solid tomato;
+}
+.Menu-box{
+    display: none;
+    border: 1px solid green;
+    color: coral;
+}
+
+.Menu-box.is-open {
+    display: block;
+}
+
+.Menu-box-link {
+    background-color: yellow;
+    padding: 15px;
+}
+
+@media (min-width: 600px) {
+    .Menu-button {
+        display: none;
+    }
+
+    .Menu-box {
+        display: flex;
+    }
+}

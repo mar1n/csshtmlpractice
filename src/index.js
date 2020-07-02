@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Specificity from './components/Specificity/Specificity'
+import Menu from './components/Menu/Menu';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Specificity />
+    <Menu />
   </React.StrictMode>,
   document.getElementById('root')
 );
